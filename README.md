@@ -1,6 +1,6 @@
 # gps_connectivity
 
-A Flutter plugin that checks whether GPS is ON or OFF, it can listen for gps change.
+A Flutter plugin that checks whether GPS is ON or OFF, it can listen for GPS change.
 Inspired by [connectivity_plus](https://pub.dev/packages/connectivity_plus) plugin
 
 ## Platform Support
@@ -18,7 +18,7 @@ bool isGpsEnabled = await (GpsConnectivity().checkGpsConnectivity());
 if (isGpsEnabled) {
   // GPS is ON.
 } else {
-  // GPS os OFF.
+  // GPS is OFF.
 }
 ```
 

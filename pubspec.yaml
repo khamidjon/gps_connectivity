@@ -1,6 +1,6 @@
 name: gps_connectivity
 description: A Flutter plugin that checks whether GPS is ON or OFF.
-version: 0.0.1
+version: 0.0.2
 homepage:
 repository: https://github.com/khamidjon/gps_connectivity
 
