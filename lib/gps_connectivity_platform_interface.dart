@@ -2,8 +2,6 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'method_channel_gps_connectivity.dart';
 
-export 'src/enums.dart';
-
 abstract class GpsConnectivityPlatform extends PlatformInterface {
   /// Constructs a ConnectivityPlatform.
   GpsConnectivityPlatform() : super(token: _token);

@@ -1,1 +1,0 @@
-enum GpsConnectivityResult { gps, none }

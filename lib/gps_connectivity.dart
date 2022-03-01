@@ -2,9 +2,6 @@ import 'dart:async';
 
 import 'gps_connectivity_platform_interface.dart';
 
-export 'gps_connectivity_platform_interface.dart'
-    show GpsConnectivityResult;
-
 class GpsConnectivity {
   GpsConnectivity._();
 
