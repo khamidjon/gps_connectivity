@@ -1,12 +1,11 @@
 # gps_connectivity
 
 A Flutter plugin that checks whether GPS is ON or OFF, it can listen for gps change.
+Inspired by [connectivity_plus](https://pub.dev/packages/connectivity_plus) plugin
 
 ## Platform Support
 
-| Android |
-| :-----: | 
-|   ✔️    | 
+Only Android for now.
 
 ## Usage
 
@@ -45,5 +44,3 @@ dispose() {
   super.dispose();
 }
 ```
-
-Inspired by connectivity_plus plugin
