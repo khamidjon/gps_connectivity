@@ -19,16 +19,13 @@ class MethodChannelGpsConnectivity extends GpsConnectivityPlatform {
   /// Fires whenever the connectivity state changes.
   @override
   Stream<bool> get onGpsConnectivityChanged {
-    _onConnectivityChanged ??= eventChannel
-        .receiveBroadcastStream()
-        .map((dynamic result) => result);
+    _onConnectivityChanged ??=
+        eventChannel.receiveBroadcastStream().map((dynamic result) => result);
     return _onConnectivityChanged!;
   }
 
   @override
   Future<bool> checkGpsConnectivity() async {
-    return methodChannel
-        .invokeMethod('check')
-        .then<bool>((value) => value);
+    return methodChannel.invokeMethod('check').then<bool>((value) => value);
   }
 }

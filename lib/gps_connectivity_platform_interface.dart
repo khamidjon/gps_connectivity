@@ -29,6 +29,7 @@ abstract class GpsConnectivityPlatform extends PlatformInterface {
 
   /// Returns a Stream of ConnectivityResults changes.
   Stream<bool> get onGpsConnectivityChanged {
-    throw UnimplementedError('get onConnectivityChanged has not been implemented.');
+    throw UnimplementedError(
+        'get onConnectivityChanged has not been implemented.');
   }
 }
