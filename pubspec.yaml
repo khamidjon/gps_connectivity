@@ -1,12 +1,12 @@
 name: gps_connectivity
 description: A Flutter plugin that checks whether GPS is ON or OFF, it can listen for GPS change.
 version: 0.0.4
-homepage:
+homepage: https://github.com/khamidjon/gps_connectivity
 repository: https://github.com/khamidjon/gps_connectivity
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
-  flutter: ">= 1.22.0"
+  flutter: ">=1.22.0"
 
 dependencies:
   flutter:

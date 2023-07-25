@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
       });
     });
 
-    WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       GpsConnectivity().checkGpsConnectivity().then((bool isGpsEnabled) {
         setState(() {
           this.isGpsEnabled = isGpsEnabled;
